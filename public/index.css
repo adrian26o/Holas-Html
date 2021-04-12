@@ -1,0 +1,97 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*--------------------------------------------------------------------------- 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Cabecera<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+----------------------------------------------------------------------------*/
+#cabecera
+{
+    background-color: #2f3542;
+    border: #bdc3c7 3px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    padding-bottom: 1%;
+}
+#cabecera h1{color: white;padding-top: 1%; font-family: 'Open Sans Condensed', sans-serif; margin-bottom: -.5%; text-align: center;}
+#titleicon
+{
+    height: auto;
+    width: 8%;
+    padding: .5%;
+    float: right;
+}
+nav ul,li,div,h3{display: inline;}
+nav img
+{
+    width: clamp(1px,5%,800px);
+    position: relative;
+    bottom: 5%;
+
+}
+nav{padding-top: 2.5%;} nav a{text-decoration: none;}
+nav div:hover
+{
+    background-color: #6a89cc3f; border-color:#82ccdd75;
+}
+nav h3{block-size: 1%; color:white;font-family: 'Duru Sans', sans-serif; width: 100%; margin-top: 1%;margin-left: -.40%;}
+nav div
+{
+    border-radius: 5rem;
+    padding-top: 5%;
+    padding-right: 1.8%;
+    margin-left: 1%;
+    transition: .5s;
+    background-color: transparent;
+    padding-left: 1%;
+    display: inline-flexbox;
+    margin-right: 2%;
+    width: clamp(2px,60%,800px);
+}
+
+/*--------------------------------------------------------------------------- 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Cabecera<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Presentacion<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+----------------------------------------------------------------------------*/
+
+
+#presentacion ul{background: url("/Index1.jpg"); background-size: cover;font-family: 'Duru Sans', sans-serif}
+#presentacion li{display: inline;}
+#presentacion img{width: 18%; float: left; margin-top:10%;margin-left: 2%;}
+#presentacion h3 {margin-top: 1%; padding-bottom: 4%;}
+#presentacion {color: #b2bec3; font-size: 80%; text-align: center;}
+#presentacion div{border-radius: 5rem; background-color: rgba(255, 255, 255, 0.185); display: inline-block; padding-bottom: 2%;margin-top: 8%; padding-right: 2%; padding-left: 2%; width: 50%; padding-top: 2%; transition: .5s;margin-bottom: -5%;} 
+#presentacion a {text-decoration: none;color: #b2bec3;}
+#presentacion a :hover{color: #f1c40f;}
+#presentacion a:hover div{background-color: rgba(255, 255, 255, 0.247);}
+#presentacion a div{margin-bottom: 28%;}
+
+
+/*----------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Presentacion<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Información<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+----------------------------------------------------------------------------*/
+/*Color del fin de la imágen #000000*/
+
+#info *{color: white; text-align: center;} 
+#info h1{background-color: #000000;}
+#black {background-color: #000000; display: block;}
+.infobox {display: block; border-radius: 1rem; background-color: #2f364086; size: 100%; margin-bottom: 3%; margin-right: 3%;margin-left: 3%;font-family: 'Raleway', sans-serif;}
+#info div p{padding-bottom: 3%;}
+#info div h2 {padding-top: 1.5%;}
+.infobox img {width: clamp(300px,60%,600px); margin-bottom: 2%; border: #b2bec3 solid; border-radius: 2rem;}
+#info {background-color: #000000;}
+
+/*----------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Información<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+----------------------------------------------------------------------------*/

@@ -1,0 +1,52 @@
+*
+{
+    background-color: #2c3e50;
+    color: #7f8c8d  ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-style: italic;
+    font-weight: 500px;
+}
+#title
+{
+    width: 180px;
+    height: 40px;
+    margin: 0% auto;
+}
+
+#description
+{
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 1%;
+    height: 20px;
+    width: 180px;
+    position: sticky;
+}
+
+#holas404image
+{
+
+    margin-left: 38%;
+    width: 22.5%;
+    height: auto;
+}
+
+.contenedor
+{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0% auto;
+    height: 100%;
+}
+
+.contenedor :hover
+{
+    color: #3498db;
+}
+
+#piedepagina
+{
+    margin-top:20%
+}
