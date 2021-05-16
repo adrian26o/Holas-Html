@@ -4,7 +4,7 @@ const path = require("path")
 
 router.get("/",function(req,resp)
 {
-    resp.render("index.ejs");
+    resp.render("main.ejs");
     resp.end();
 })
 
