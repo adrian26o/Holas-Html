@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holas - Comandos</title>
+
+    <!-- links -->
+    <link rel="shortcut icon" href="HolasIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="docs.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" icon><img src="HolasIcon.svg" /></a>
+        <div class="Bar">
+            <a href="#Moderacion" text>Moderación</a>
+            <a href="#Informacion" text>Información</a>
+            <a href="#Diversion" text>Diversión</a>
+        </div>
+    </nav>
+
+    <!-- Comandos de moderación -->
+    <label id="Moderacion"></label>
+    <h1 subsect style="margin-top: 5%;">Comandos de moderación</h1>
+    <div class="card">
+        <h1>Ban</h1>
+        <h2 t1></h2>
+        <p>Banea al usuario especificado.</p>
+        <h2 t2></h2>
+        <p code>ban [usuario/mención/id/nombre]</p>
+    </div>
+    <div class="card">
+        <h1>Unban</h1>
+        <h2 t1></h2>
+        <p>Desbanea al usuario especificado.</p>
+        <h2 t2></h2>
+        <p code>unban [id/nombre]</p>
+    </div>
+
+
+    <!-- Comandos Informativos -->
+
+    <label id="Informacion"></label>
+    <h1 subsect>Comandos informativos</h1>
+    <div class="card">
+        <h1>Avatar</h1>
+        <h2 t1></h2>
+        <p>Devuelve el avatar del usuario especificado (Si no se especifica se devolverá el propio).</p>
+        <h2 t2></h2>
+        <p code>avatar [usuario/mención/id/nombre]</p>
+        <h2 t3></h2>
+        <p code>av</p>
+    </div>
+    <div class="card">
+        <h1>ServerInfo</h1>
+        <h2 t1></h2>
+        <p>Muestra información sobre el servidor en donde fue ejecutado.</p>
+        <h2 t2></h2>
+        <p code>serverinfo</p>
+        <h2 t3></h2>
+        <p code>svinfo</p>
+    </div>
+    <div class="card">
+        <h1>Userinfo</h1>
+        <h2 t1></h2>
+        <p>Muestra la información del usuario especificado(Si no se especifica se devolverá el propio).</p>
+        <h2 t2></h2>
+        <p code>userinfo [usuario/mencion/id/nombre]</p>
+        <h2 t3></h2>
+        <p code>whois</p>
+    </div>
+    <div class="card">
+        <h1>help</h1>
+        <h2 t1></h2>
+        <p>Envia un mensaje con los comandos disponibles.</p>
+        <h2 t2></h2>
+        <p code>help</p>
+    </div>
+    <div class="card">
+        <h1>Enlarge</h1>
+        <h2 t1></h2>
+        <p>Devuelve el emoji especificado en formato png.</p>
+        <h2 t2></h2>
+        <p code>enlarge [emoji]</p>
+        <h2 t3></h2>
+        <p code>e</p>
+    </div>
+    <div class="card">
+        <h1>ping</h1>
+        <h2 t1></h2>
+        <p>Muestra la latencia del bot con discord.</p>
+        <h2 t2></h2>
+        <p code>ping</p>
+    </div>
+
+    <!-- Comandos informativos -->
+    <label id="Diversion"></label>
+    <h1 subsect>Comandos divertidos</h1>
+    <div class="card">
+        <h1>Google</h1>
+        <h2 t1></h2>
+        <p>Hace que el bot responda con una busqueda rápida en Google dandote a elegir de 5 opciones.</p>
+        <h2 t2></h2>
+        <p code>google [busqueda]</p>
+    </div>
+    <div class="card">
+        <h1>Tenor</h1>
+        <h2 t1></h2>
+        <p>Busca un gif aleatorio según el termino de la busqueda y devuelve uno aleatorio de una lista de 15 resultados</p>
+        <h2 t2></h2>
+        <p code>tenor [busqueda]</p>
+        <h2 t3></h2>
+        <p code>gif</p>
+    </div>
+    <div class="card">
+        <h1>Hola</h1>
+        <h2 t1></h2>
+        <p>Saludará de tu parte a la persona especificada(¡Si no se especifica te saludará a ti!).</p>
+        <h2 t2></h2>
+        <p code>hola [usuario/mención/id/nombre]</p>
+    </div>
+    <div class="card">
+        <h1>Say</h1>
+        <h2 t1></h2>
+        <p>El bot dirá lo que le especificaste.</p>
+        <h2 t2></h2>
+        <p code>say [mensaje]</p>
+        <h2 t3></h2>
+        <p code>s</p>
+    </div>
+    <div class="card">
+        <h1>Dado</h1>
+        <h2 t1></h2>
+        <p>Devolverá un valor aleatorio entre el 1 y el 6.</p>
+        <h2 t2></h2>
+        <p code>dado</p>
+    </div>
+    <div class="card">
+        <h1>coin</h1>
+        <h2 t1></h2>
+        <p>Girará una moneda. Caerá cara o cruz dependiendo de tu suerte.</p>
+        <h2 t2></h2>
+        <p code>coin</p>
+        <h2 t3></h2>
+        <p code>coinflip</p>
+        <p code>volado</p>
+    </div>
+</body>
+<footer style="padding-top: 3%;padding-bottom: 1%;"><%-include ("partials/pie")%></footer>
+</div>
+</html>
